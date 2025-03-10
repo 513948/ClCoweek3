@@ -23,7 +23,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-    - name: Check if secret is available
+    - name: Check if secret is available!
       run: echo "${{ secrets.GKE_SA_KEY }}" | head -c 100
 
 
